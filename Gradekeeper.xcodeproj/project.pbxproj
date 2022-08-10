@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AB2FB8D28A358CF0022BF8E /* Gradekeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2FB7A28A358CC0022BF8E /* Gradekeeper.xcdatamodeld */; };
+		7AB2FB8E28A358CF0022BF8E /* Gradekeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2FB7A28A358CC0022BF8E /* Gradekeeper.xcdatamodeld */; };
+		7AB2FB8F28A358CF0022BF8E /* GradekeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2FB7C28A358CC0022BF8E /* GradekeeperApp.swift */; };
+		7AB2FB9028A358CF0022BF8E /* GradekeeperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2FB7C28A358CC0022BF8E /* GradekeeperApp.swift */; };
+		7AB2FB9128A358CF0022BF8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2FB7D28A358CC0022BF8E /* ContentView.swift */; };
+		7AB2FB9228A358CF0022BF8E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2FB7D28A358CC0022BF8E /* ContentView.swift */; };
+		7AB2FB9328A358CF0022BF8E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2FB7E28A358CC0022BF8E /* Persistence.swift */; };
+		7AB2FB9428A358CF0022BF8E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB2FB7E28A358CC0022BF8E /* Persistence.swift */; };
+		7AB2FB9528A358CF0022BF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB2FB7F28A358CF0022BF8E /* Assets.xcassets */; };
+		7AB2FB9628A358CF0022BF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB2FB7F28A358CF0022BF8E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AB2FB7B28A358CC0022BF8E /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		7AB2FB7C28A358CC0022BF8E /* GradekeeperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradekeeperApp.swift; sourceTree = "<group>"; };
+		7AB2FB7D28A358CC0022BF8E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7AB2FB7E28A358CC0022BF8E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7AB2FB7F28A358CF0022BF8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AB2FB8428A358CF0022BF8E /* Gradekeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradekeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB2FB8A28A358CF0022BF8E /* Gradekeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradekeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB2FB8C28A358CF0022BF8E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AB2FB8128A358CF0022BF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB2FB8728A358CF0022BF8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AB2FB7428A358CC0022BF8E = {
+			isa = PBXGroup;
+			children = (
+				7AB2FB7928A358CC0022BF8E /* Shared */,
+				7AB2FB8B28A358CF0022BF8E /* macOS */,
+				7AB2FB8528A358CF0022BF8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AB2FB7928A358CC0022BF8E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				7AB2FB7C28A358CC0022BF8E /* GradekeeperApp.swift */,
+				7AB2FB7D28A358CC0022BF8E /* ContentView.swift */,
+				7AB2FB7E28A358CC0022BF8E /* Persistence.swift */,
+				7AB2FB7F28A358CF0022BF8E /* Assets.xcassets */,
+				7AB2FB7A28A358CC0022BF8E /* Gradekeeper.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7AB2FB8528A358CF0022BF8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AB2FB8428A358CF0022BF8E /* Gradekeeper.app */,
+				7AB2FB8A28A358CF0022BF8E /* Gradekeeper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AB2FB8B28A358CF0022BF8E /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7AB2FB8C28A358CF0022BF8E /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AB2FB8328A358CF0022BF8E /* Gradekeeper (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB2FB9928A358CF0022BF8E /* Build configuration list for PBXNativeTarget "Gradekeeper (iOS)" */;
+			buildPhases = (
+				7AB2FB8028A358CF0022BF8E /* Sources */,
+				7AB2FB8128A358CF0022BF8E /* Frameworks */,
+				7AB2FB8228A358CF0022BF8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gradekeeper (iOS)";
+			productName = "Gradekeeper (iOS)";
+			productReference = 7AB2FB8428A358CF0022BF8E /* Gradekeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7AB2FB8928A358CF0022BF8E /* Gradekeeper (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB2FB9C28A358CF0022BF8E /* Build configuration list for PBXNativeTarget "Gradekeeper (macOS)" */;
+			buildPhases = (
+				7AB2FB8628A358CF0022BF8E /* Sources */,
+				7AB2FB8728A358CF0022BF8E /* Frameworks */,
+				7AB2FB8828A358CF0022BF8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gradekeeper (macOS)";
+			productName = "Gradekeeper (macOS)";
+			productReference = 7AB2FB8A28A358CF0022BF8E /* Gradekeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AB2FB7528A358CC0022BF8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7AB2FB8328A358CF0022BF8E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					7AB2FB8928A358CF0022BF8E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7AB2FB7828A358CC0022BF8E /* Build configuration list for PBXProject "Gradekeeper" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AB2FB7428A358CC0022BF8E;
+			productRefGroup = 7AB2FB8528A358CF0022BF8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AB2FB8328A358CF0022BF8E /* Gradekeeper (iOS) */,
+				7AB2FB8928A358CF0022BF8E /* Gradekeeper (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AB2FB8228A358CF0022BF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB2FB9528A358CF0022BF8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB2FB8828A358CF0022BF8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB2FB9628A358CF0022BF8E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AB2FB8028A358CF0022BF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB2FB8D28A358CF0022BF8E /* Gradekeeper.xcdatamodeld in Sources */,
+				7AB2FB9328A358CF0022BF8E /* Persistence.swift in Sources */,
+				7AB2FB8F28A358CF0022BF8E /* GradekeeperApp.swift in Sources */,
+				7AB2FB9128A358CF0022BF8E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AB2FB8628A358CF0022BF8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AB2FB8E28A358CF0022BF8E /* Gradekeeper.xcdatamodeld in Sources */,
+				7AB2FB9428A358CF0022BF8E /* Persistence.swift in Sources */,
+				7AB2FB9028A358CF0022BF8E /* GradekeeperApp.swift in Sources */,
+				7AB2FB9228A358CF0022BF8E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7AB2FB9728A358CF0022BF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7AB2FB9828A358CF0022BF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7AB2FB9A28A358CF0022BF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.animalswithcoolhats.Gradekeeper;
+				PRODUCT_NAME = Gradekeeper;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AB2FB9B28A358CF0022BF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.animalswithcoolhats.Gradekeeper;
+				PRODUCT_NAME = Gradekeeper;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AB2FB9D28A358CF0022BF8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.animalswithcoolhats.Gradekeeper;
+				PRODUCT_NAME = Gradekeeper;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7AB2FB9E28A358CF0022BF8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.animalswithcoolhats.Gradekeeper;
+				PRODUCT_NAME = Gradekeeper;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AB2FB7828A358CC0022BF8E /* Build configuration list for PBXProject "Gradekeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB2FB9728A358CF0022BF8E /* Debug */,
+				7AB2FB9828A358CF0022BF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB2FB9928A358CF0022BF8E /* Build configuration list for PBXNativeTarget "Gradekeeper (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB2FB9A28A358CF0022BF8E /* Debug */,
+				7AB2FB9B28A358CF0022BF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB2FB9C28A358CF0022BF8E /* Build configuration list for PBXNativeTarget "Gradekeeper (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AB2FB9D28A358CF0022BF8E /* Debug */,
+				7AB2FB9E28A358CF0022BF8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7AB2FB7A28A358CC0022BF8E /* Gradekeeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7AB2FB7B28A358CC0022BF8E /* Shared.xcdatamodel */,
+			);
+			currentVersion = 7AB2FB7B28A358CC0022BF8E /* Shared.xcdatamodel */;
+			path = Gradekeeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7AB2FB7528A358CC0022BF8E /* Project object */;
+}
